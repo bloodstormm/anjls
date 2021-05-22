@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANJLS</title>
+    <link rel="stylesheet" href="css/tailwind.css">
+</head>
+
+<body class="text-white bg-mainColor-default">
+    <!-- Landing Page -->
+    <section class="min-h-screen">
+        <!-- Navbar -->
+        <div class="container px-2 mx-auto">
+            <!-- Navbar COntent -->
+            <nav class="py-5 flex justify-between">
+
+                <!-- Logo -->
+                <div class="block mx-auto sm:mx-0 sm:flex">
+                    <a href="https://twitter.com" class="focus:outline-none"><img src="img/logo.png"
+                            class="w-52 sm:w-auto sm:h-16" alt="logo"></a>
+                </div>
+
+                <!-- Links -->
+                <div class="hidden sm:flex justify-center text-white space-x-6 items-center">
+                    <a href="#" class="focus:outline-none">Sobre Nós</a>
+                    <a href="#" class="focus:outline-none">Produtos</a>
+                    <div class="w-0.5 h-9 bg-gray-200 opacity-60 rounded-xl"></div>
+                    <a href="#" class="bg-mainColor-accent p-2 px-4 rounded-2xl focus:outline-none">Contato</a>
+                </div>
+            </nav>
+        </div>
+
+        <div class="container md:mt-32 sm:flex justify-between mx-auto">
+            <!-- Img para mobile -->
+            <div>
+                <img src="img/foto_criadores.jpg" width="250" class="rounded-full sm:hidden mx-auto sm:p-0">
+            </div>
+
+            <div class="flex flex-col items-center sm:items-stretch mx-10 sm:mx-0">
+                <h1 class="text-4xl md:text-6xl font-bold mr-8 sm:mr-48 pt-16 sm:pt-24">
+                    A melhor solução para automações em instituições de ensino.
+                </h1>
+                <p class="mr-0 sm:mr-48 text-gray-400 pt-10 text-xl">Entre em contato conosco ainda hoje por alguns dos meios
+                    abaixo.</p>
+
+                <div
+                    class="mt-8 mb-8 sm:mb-0 flex bg-mainColor-accent hover:scale-110 hover:bg-blue-700 transform transition duration-300 p-4 rounded-full w-full sm:w-52">
+
+                    <button class="mx-auto sm:mx-0">Entrar em Contato</button>
+
+                    <span class="bg-gray-100 rounded-full ml-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-900" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                    </span>
+                </div>
+            </div>
+            <div class="my-auto">
+                <img src="img/foto_criadores.jpg" width="1300" class="rounded-full hidden sm:block">
+            </div>
+        </div>
+    </section>
+
+    <!-- Produto Page -->
+    <section class="bg-mainColor-darkBlue min-h-screen flex items-center ">
+        <div class="container block sm:flex justify-between item mx-auto">
+            <!-- Img -->
+            <div class="my-auto">
+                <img src="img/app.svg" width="1300" class="rounded-xl px-14 sm:px-0 mt-10">
+            </div>
+
+            <div class="flex flex-col ml-6 sm:ml-48 sm:items-stretch mx-10 sm:mx-0">
+                <h1 class="text-4xl md:text-6xl font-bold pt-24">
+                    Aplicativos Mobile mais acessíveis
+                </h1>
+                <p class="text-gray-400 pt-10 text-xl">
+                    Graças a tecnologia de PWA (Progressive Web Apps), nossos clientes
+                    podem baixar os aplicativos que pesam menos de 2mb! Uma solução e tanto para quem não tem muito
+                    espaço livre no celular
+                </p>
+
+                <div
+                    class="mt-12 mb-8 sm:mb-0 flex bg-mainColor-accent hover:scale-110 hover:bg-blue-700 transform transition duration-300 p-4 rounded-full w-40">
+                    <button class="pl-2 focus:outline-none">Saber Mais</button>
+                    <span class="rounded-full ml-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                          </svg>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre nós -->
+    <section class="container mx-auto mb-6">
+
+        <div class="text-center m-9 space-y-3">
+            <h1 class="text-5xl font-semibold">Sobre nós</h1>
+            <p class="text-gray-400 text-lg">Todos os integrantes do projeto</p>
+        </div>
+
+        <div class="block sm:flex sm:space-x-24 space-y-7 sm:space-y-0 justify-center">
+            <div class="text-center">
+                <img src="img/nicao.jpeg" class="w-52 h-52 object-cover mx-auto rounded-full" alt="">
+                <h1 class="mt-2 font-semibold text-xl">Nícolas Lindo</h1>
+                <p class="p-8 sm:p-0">Desenvolvedor full stack, solteiro, jogador profissional de Call of Duty Warzone chama no
+                    pai</p>
+            </div>
+
+            <div class="text-center max-w-sm">
+                <img src="img/joao.jpg" class="object-cover mx-auto rounded-full p-20 sm:p-0" width="600">
+                <h1 class="mt-2 font-semibold text-xl">João Lucas</h1>
+                <p class="p-8 sm:p-0">Desenvolvedor full stack, conquistador de boy de lorena</p>
+            </div>
+
+            <div class="text-center max-w-sm">
+                <img src="img/laura.jpeg" class="w-52 h-52 object-cover mx-auto rounded-full" alt="">
+                <h1 class="mt-2 font-semibold text-xl">Laura Alves</h1>
+                <p class="p-8 sm:p-0">Desenvolvedor full stack, solteiro, jogador profissional de Call of Duty Warzone chama no
+                    pai</p>
+            </div>
+
+            <div class="text-center max-w-sm">
+                <img src="img/stefany.jpg" class="w-52 h-52 object-cover mx-auto rounded-full" alt="">
+                <h1 class="mt-2 font-semibold text-xl">Stefany França</h1>
+                <p class="p-8 sm:p-0">Desenvolvedor full stack, solteiro, jogador profissional de Call of Duty Warzone chama no
+                    pai</p>
+            </div>
+
+            <div class="text-center max-w-sm">
+                <img src="img/amanda.jpg" class="w-52 h-52 object-cover mx-auto rounded-full" alt="">
+                <h1 class="mt-2 font-semibold text-xl">Amanda</h1>
+                <p class="p-8 sm:p-0">Desenvolvedor full stack, solteiro, jogador profissional de Call of Duty Warzone chama no
+                    pai</p>
+            </div>
+
+        </div>
+    </section>
+
+</body>
+</html>
